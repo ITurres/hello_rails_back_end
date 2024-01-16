@@ -13,6 +13,9 @@ gem 'puma', '>= 5.0'
 
 gem 'rubocop', '>= 1.0', '< 2.0'
 
+# To help with the CORS policy issue.
+gem 'rack-cors'
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
